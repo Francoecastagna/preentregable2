@@ -169,6 +169,11 @@ a:hover {
     align-items: center;
 }
 
+.carousel-slide {
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
 
 @media (max-width:450px ) {
    .precios { grid-template-columns: 1fr 1fr;
