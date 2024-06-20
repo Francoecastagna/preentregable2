@@ -1,0 +1,53 @@
+.precios {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "precio corte"
+                         "mixto colores"
+                         "clarito niño";
+}
+
+.p-1 {
+    grid-area: precio;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.p-2 {
+    grid-area: corte;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.p-3 {
+    grid-area: mixto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.p-4 {
+    grid-area: colores;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.p-5 {
+    grid-area: clarito;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.p-6 {
+    grid-area: niño;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.ejemplo-boton {
+    background-color: map-get($paleta-colores, color-fondo );
+}

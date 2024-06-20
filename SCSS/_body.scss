@@ -1,0 +1,44 @@
+.texto {
+    color: map-get($paleta-colores, color-texto );
+    font-size: $fuente-parrafo;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h1 {
+    font-family: $fuente-titulo;
+    text-align: center;
+    margin: 15px 0px;
+    color: map-get($paleta-colores, color-titulos );
+}
+
+
+.pagina {
+    background-color: map-get($paleta-colores, color-principal );
+}
+
+.texto-h {
+    color: map-get($paleta-colores, color-titulos );
+}
+
+.texto-n {
+    @include tamanios (200px, 250px);
+    color:map-get($paleta-colores, color-texto)
+}
+
+.contacto {
+    margin-bottom: 15px;
+}
+
+.nosotros {
+    border: solid 1px white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.nosotros-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

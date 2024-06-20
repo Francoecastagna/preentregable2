@@ -1,0 +1,9 @@
+footer {
+    color: map-get($paleta-colores, color-principal );
+    background-color: map-get($paleta-colores, color-fondo );
+    text-align: center;
+    font-family: $fuente-parrafo;
+    padding: 15px;
+    margin-top: 15px;
+} 
+

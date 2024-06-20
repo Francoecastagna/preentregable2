@@ -1,0 +1,176 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: white;
+  margin-bottom: 15px;
+  color: black;
+  font-size: "roboto";
+}
+header a {
+  text-decoration: none;
+}
+header a :hover {
+  border: 1px solid black;
+}
+header nav ul {
+  display: inline;
+  margin: 10px 5px;
+}
+header nav ul li {
+  list-style-type: none;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.texto {
+  color: aliceblue;
+  font-size: "roboto";
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+h1 {
+  font-family: "nunito";
+  text-align: center;
+  margin: 15px 0px;
+  color: rgb(107, 107, 101);
+}
+
+.pagina {
+  background-color: black;
+}
+
+.texto-h {
+  color: rgb(107, 107, 101);
+}
+
+.texto-n {
+  height: 200px;
+  width: 250px;
+  color: aliceblue;
+}
+
+.contacto {
+  margin-bottom: 15px;
+}
+
+.nosotros {
+  border: solid 1px white;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.nosotros-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.img-logo {
+  width: 72px;
+  height: 72px;
+}
+
+.fotos {
+  height: 220px;
+  width: 270px;
+}
+
+.img {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  margin-left: 100px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.precios {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "precio corte" "mixto colores" "clarito niño";
+}
+
+.p-1 {
+  grid-area: precio;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.p-2 {
+  grid-area: corte;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.p-3 {
+  grid-area: mixto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.p-4 {
+  grid-area: colores;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.p-5 {
+  grid-area: clarito;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.p-6 {
+  grid-area: niño;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.ejemplo-boton {
+  background-color: white;
+}
+
+footer {
+  color: black;
+  background-color: white;
+  text-align: center;
+  font-family: "roboto";
+  padding: 15px;
+  margin-top: 15px;
+}
+
+@media (max-width: 450px) {
+  .precios {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "precio" "barba" "mixto" "colores" "clarito";
+  }
+}
+@media (max-width: 700px) {
+  .nosotros-container {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .texto {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

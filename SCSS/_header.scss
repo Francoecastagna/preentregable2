@@ -1,0 +1,25 @@
+header {
+    background-color: map-get($paleta-colores, color-fondo );
+    margin-bottom: 15px;
+    color: map-get($paleta-colores , color-principal );
+    font-size: $fuente-parrafo;
+    a {
+        text-decoration: none;
+        :hover {
+          border: 1px solid black
+        }
+    }
+ nav {
+      ul{
+        display: inline;
+        margin: 10px 5px;
+      li {
+            list-style-type: none;
+        }
+      }
+    }
+}
+
+.navbar {
+  width: 100%;
+}

@@ -1,0 +1,25 @@
+@media (max-width:450px ) {
+    .precios { grid-template-columns: 1fr 1fr;
+     grid-template-areas: "precio"
+                          "barba"
+                          "mixto"
+                          "colores"
+                          "clarito";}
+ }
+ 
+ @media (max-width:700px) {
+     
+     .nosotros-container {
+         width: 100%;
+     }
+     }
+
+
+@media (max-width:500px) {
+    .texto {
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+}
