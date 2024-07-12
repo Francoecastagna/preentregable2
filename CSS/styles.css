@@ -74,6 +74,11 @@ h1 {
   flex-wrap: wrap;
 }
 
+.ubicacion {
+  display: flex;
+  justify-content: center;
+}
+
 .img-logo {
   width: 72px;
   height: 72px;
@@ -91,6 +96,11 @@ h1 {
   margin-left: 100px;
   margin-bottom: 10px;
   align-items: center;
+}
+
+.galeria {
+  display: flex;
+  justify-content: center;
 }
 
 .precios {
